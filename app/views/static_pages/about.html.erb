@@ -1,6 +1,9 @@
-<% provide(:title, 'About Us')%>
-<h1>About Us</h1>
-		<p>Need help about this, check out this site
-			<a href="http://www.icity.no">www.icity.no</a>
+<% provide(:title, 'Om oss')%>
+<div class="center hero-unit">
+	<h1>Om Oss</h1>
+		<%= link_to image_tag("logo.png", alt: "pk_logo"), root_path %>
+		<h3>En lokal rekrutteringsrådgiver med solid erfaring innen rekruttering og rådgivning, og med et godt opparbeidet nettverk hos kunder og arbeidssøkende.</h3> <p> Positiv Kompetanse fokuserer på ekte engasjement, lojalitet, positivitet og kvalitet! Vi utfører rekruttering og rådgivnings oppdrag i hele Norden. Vi gjennomfører både hele og deler av rekrutteringsprosessen for våre kunder, men i de fleste tilfeller tar vi hele oppgaven fra A til Å.</p>
+			<%= link_to "Contact", contact_path, class: "btn btn-primary btn-large" %>
 		</p>
 
+</div>

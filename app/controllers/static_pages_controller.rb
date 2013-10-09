@@ -2,14 +2,13 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def help
+  def tjenester
   end
   
   def about
   end
   
-  def jobs
-    @morten = "Hallo hallo"
+  def rekruttering
   end
   
   def contact
